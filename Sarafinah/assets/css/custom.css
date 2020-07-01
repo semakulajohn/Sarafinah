@@ -1,0 +1,70 @@
+/* Add here all your css styles (customizations) */
+.u-ns-bg-v1-top {
+    background-color: #9b2727 !important;
+}
+
+.g-parent.g-theme-bg-gray-dark-v1 .u-ns-bg-v1-top::before {
+    border-bottom-color: #9b2727;
+}
+.u-ns-bg-v1-top p{
+color:#fff !important;
+}
+@media (min-width: 768px) {
+    .u-ns-bg-v1-left--md.g-bg-black::before {
+        border-right-color: #9b2727;
+    }
+}
+.g-color-primary{
+    color:#fff !important;
+}
+.u-btn-primary {
+    background-color: #11793d;
+}
+
+.g-bg-black .u-btn-primary {
+    background-color: #fff;
+}
+.g-color-gray-light-v1 .u-btn-primary{
+    color:#fff;
+}
+
+.g-color-footer-links {
+    color: #22364c;
+}
+
+/*.g-font-size-16 {
+    font-size: 1.14286rem !important;
+}*/
+
+.u-link-v5 {
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.u-link-v5 {
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+.g-font-size-16 {
+    font-size: 1.14286rem !important;
+}
+.g-color-footer-links {
+    color: rgb(34, 54, 76);
+}
+#successStory .u-btn-primary {
+    color: #9b2727 !important;
+}
+
+.u-ns-bg-v1-top.g-bg-black::before, .g-parent.g-bg-black .u-ns-bg-v1-top::before {
+    border-bottom-color: #9b2727;
+}
+
+.u-ns-bg-v1-top::before {
+    top: -24px;
+}
+.u-ns-bg-v1-bottom::before {
+    bottom: -23px;
+}
+
+
+

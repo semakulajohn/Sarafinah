@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <title>@ViewBag.Title - SASCELLS</title>
+    @*@Styles.Render("~/Content/css")*@
+    <link rel="stylesheet" href="~/assets/fontawesome-free-5.13.0-web/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="~/~/../https@fonts.googleapis.com/css@family=Open+Sans_253A400,300,500,600,700_257CPlayfair+Display_257CRoboto_257CRaleway_257CSpectral_257CRubik">
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="~/assets/vendor/bootstrap/bootstrap.min.css">
+    <!-- CSS Global Icons -->
+    <link rel="stylesheet" href="~/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/vendor/icon-line/css/simple-line-icons.css">
+    <link rel="stylesheet" href="~/assets/vendor/icon-etlinefont/style.css">
+    <link rel="stylesheet" href="~/assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="~/assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="~/assets/vendor/animate.css">
+    <link rel="stylesheet" href="~/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+    <link rel="stylesheet" href="~/assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+    <link rel="stylesheet" href="~/assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+    <link rel="stylesheet" href="~/assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="~/assets/vendor/wait-animate.min.css">
+    <link rel="stylesheet" href="~/assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="~/assets/css/unify-components.css">
+    <link rel="stylesheet" href="~/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="~/assets/vendor/hamburgers/hamburgers.min.css">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="~/assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="~/assets/vendor/revolution-slider/revolution/css/settings.css">
+    <link rel="stylesheet" href="~/assets/vendor/revolution-slider/revolution/css/layers.css">
+    <link rel="stylesheet" href="~/assets/vendor/revolution-slider/revolution/css/navigation.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="~/assets/css/unify-core.css">
+    <link rel="stylesheet" href="~/assets/css/unify-globals.css">
+    @*<link rel="stylesheet" href="~/assets/education/css/styles.multipage-education.css">*@
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="~/assets/css/custom.css">
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header id="js-header" class="u-header">
+        <div class="u-header__section u-header__section--light g-transition-0_3 g-py-0">
+            <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal ">
+                <div class="container">
+                    <!-- Responsive Toggle Button -->
+                    <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                        <span class="hamburger hamburger--slider">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </span>
+                    </button>
+                    <!-- End Responsive Toggle Button -->
+                    <!-- Logo -->
+                    <a href="/Home" class="navbar-brand d-flex">
+                        <img src="~/assets/img/logo/logo.png" alt="Sarafinah" />
+                    </a>
+                    <!-- End Logo -->
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
+                        <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                            <!-- Intro -->
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a href="/Home" class="nav-link g-py-7 g-px-0">Home</a>
+                            </li>
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a href="/Home/About" class="nav-link g-py-7 g-px-0">About</a>
+                            </li>
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a href="/Home/Organization" class="nav-link g-py-7 g-px-0">Organizations Terms</a>
+                            </li>
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a href="/Home/Gallery" class="nav-link g-py-7 g-px-0">Gallery</a>
+                            </li>
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a href="/Home/Contact" class="nav-link g-py-7 g-px-0">Contact</a>
+                            </li>
+                            <!-- End Intro -->
+                            <!-- Features -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                <a id="nav-link--features" class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Features</a>
+
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                    <!-- Features - Headers -->
+                                    <li class="dropdown-item ">
+                                        <a class="nav-link" href="../shortcodes/headers/index.html">Headers</a>
+                                    </li>
+                                    <!-- End Features - Headers -->
+                                    <!-- Features - Promo blocks -->
+                                    <li class="dropdown-item ">
+                                        <a class="nav-link" href="../shortcodes/promo/index.html">Promo Blocks</a>
+                                    </li>
+                                    <!-- End Features - Promo blocks -->
+                                    <!-- Features - Sliders -->
+                                    <li class="dropdown-item hs-has-sub-menu ">
+                                        <a id="nav-link--features--sliders" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--sliders">Sliders</a>
+
+                                        <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--sliders" aria-labelledby="nav-link--features--sliders">
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="revolution-slider/index.html">Revolution sliders</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="master-slider/index.html">Master sliders</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- End Features - Sliders -->
+                                    <!-- Features - Pop-ups -->
+                                    <li class="dropdown-item hs-has-sub-menu ">
+                                        <a id="nav-link--features--pop-ups" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--pop-ups">Pop-ups</a>
+
+                                        <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--pop-ups" aria-labelledby="nav-link--features--pop-ups">
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-base-lightbox-options.html">Lightbox</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-base-modals.html">Modals</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-blocks-gallery-grid.html">Gallery</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- End Features - Pop-ups -->
+                                    <!-- Features - Maps -->
+                                    <li class="dropdown-item hs-has-sub-menu ">
+                                        <a id="nav-link--features--maps" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--maps">Maps</a>
+
+                                        <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--maps" aria-labelledby="nav-link--features--maps">
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-base-google-maps.html">Google Maps</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-base-maps-with-pins.html">Maps With Pins</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/shortcode-base-vector-maps.html">Vector Maps</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- End Features - Maps -->
+                                    <!-- Features - Footers -->
+                                    <li class="dropdown-item hs-has-sub-menu ">
+                                        <a id="nav-link--features--footers" class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features--footers">Footers</a>
+
+                                        <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-minus-2" id="nav-submenu--features--footers" aria-labelledby="nav-link--features--footers">
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/footers/shortcode-blocks-footer-classic.html">Classic Footers</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/footers/shortcode-blocks-footer-contact-forms.html">Contact Forms</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/footers/shortcode-blocks-footer-maps.html">Footers Maps</a>
+                                            </li>
+                                            <li class="dropdown-item ">
+                                                <a class="nav-link" href="../shortcodes/footers/shortcode-blocks-footer-modern.html">Modern Footers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- End Features - Footers -->
+                                </ul>
+                            </li>
+                            <!-- End Features -->
+
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+
+                    <div class="d-inline-block g-pos-rel g-valign-right ms-align-right float-sm-right g-pl-30 g-pl-0--lg">
+                        <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="https@wrapbootstrap.com/theme/unify-responsive-website-template-wb0412697@ref=htmlstream" target="_blank">Donate</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+        <!-- Call to Action -->
+        <div class="g-pos-rel">
+            <div class="container text-center g-pt-30 g-pb-30">
+                <!-- Heading -->
+                <div class="g-max-width-645 mx-auto g-mb-40">
+                    <h2 class="h1 mb-3">Support Sascell</h2>
+                    <p>Your support today can help 1000 kids suffering.....</p>
+                </div>
+                <!-- End Heading -->
+
+                <a class="btn u-shadow-v33 g-color-white g-bg-primary g-bg-main--hover g-rounded-30 g-px-35 g-py-13" href="#">Donate</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="g-bg-secondary g-pt-50 g-pb-25">
+            <div class="container">
+                <div class="row g-mb-40">
+                    <div class="col-6 col-md-3 g-mb-20">
+                        <!-- Footer Links -->
+                        <ul class="list-unstyled">
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Future Students</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Current Students</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Alumni</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Faculty &amp; Staff</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Donors</a></li>
+                        </ul>
+                        <!-- End Footer Links -->
+                    </div>
+
+                    <div class="col-6 col-md-3 g-mb-20">
+                        <!-- Footer Links -->
+                        <ul class="list-unstyled">
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">News &amp; Media</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Research &amp; Innovation</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Academics</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Programs of Study</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">University Life</a></li>
+                        </ul>
+                        <!-- End Footer Links -->
+                    </div>
+
+                    <div class="col-6 col-md-3 g-mb-20">
+                        <!-- Footer Links -->
+                        <ul class="list-unstyled">
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Contacts</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Careers</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Accessibility</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Privacy</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Site Feedback</a></li>
+                        </ul>
+                        <!-- End Footer Links -->
+                    </div>
+
+                    <div class="col-6 col-md-3 g-mb-20">
+                        <!-- Footer Links -->
+                        <ul class="list-unstyled">
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Downtown Ontario Campus</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Mississauga Campus</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Scarborough Campus</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Campus Maps</a></li>
+                            <li class="g-py-5"><a class="u-link-v5 g-color-footer-links g-color-primary--hover g-font-size-16" href="#">Campus Safety</a></li>
+                        </ul>
+                        <!-- End Footer Links -->
+                    </div>
+                </div>
+
+                <!-- Footer Copyright -->
+                <div class="row justify-content-lg-center align-items-center text-center">
+                    <div class="col-sm-12 col-md-3 col-lg-3 order-md-1 g-mb-30">
+                        <p class="g-color-text mb-0">&copy; @DateTime.Now.Year - <a href="/Home" target="_blank" class="text-dark-gray">Sascell</a></p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 order-md-3 g-mb-30">
+                        <!-- Social Icons -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item g-mx-2">
+                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle" href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item g-mx-2">
+                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item g-mx-2">
+                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle" href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item g-mx-2">
+                                <a class="u-icon-v1 u-icon-size--sm u-shadow-v32 g-color-primary g-color-white--hover g-bg-white g-bg-primary--hover rounded-circle" href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End Social Icons -->
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 order-md-2 g-mb-30">
+                        <a href="javascript:void(0);" class="text-dark-gray">Term and Condition</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0);" class="text-dark-gray">Privacy Policy</a>
+                    </div>
+                </div>
+                <!-- End Footer Copyright -->
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <a class="js-go-to u-go-to-v1" href="#"
+           data-type="fixed"
+           data-position='{
+           "bottom": 15,
+           "right": 15
+         }'
+           data-offset-top="400"
+           data-compensation="#js-header"
+           data-show-effect="zoomIn">
+            <i class="hs-icon hs-icon-arrow-top"></i>
+        </a>
+    </main>
+    <div class="u-outer-spaces-helper"></div>
+    @Scripts.Render("~/bundles/jquery")
+
+    <!-- JS Global Compulsory -->
+    <script src="~/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="~/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="~/assets/vendor/popper.js/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="~/assets/vendor/appear.js"></script>
+    <script src="~/assets/vendor/image-select/src/ImageSelect.jquery.js"></script>
+    <script src="~/assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="~/assets/vendor/circles/circles.min.js"></script>
+    <script src="~/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="~/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="~/assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+    <script src="~/assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+    <script src="~/assets/vendor/fancybox/jquery.fancybox.js"></script>
+    <script src="~/assets/vendor/jquery.easypin.custom/dist/jquery.easypin.js"></script>
+    <script src="~/assets/vendor/gmaps/gmaps.min.js"></script>
+
+
+    <!-- JS Revolution Slider -->
+    <script src="~/assets/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution-addons/particles/js/revolution.addon.particles.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="~/assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- JS Unify -->
+    <script src="~/assets/js/hs.core.js"></script>
+    <script src="~/assets/js/components/hs.carousel.js"></script>
+    <script src="~/assets/js/components/hs.header.js"></script>
+    <script src="~/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="~/assets/js/components/hs.tabs.js"></script>
+    <script src="~/assets/js/components/hs.counter.js"></script>
+    <script src="../../assets/js/components/hs.dropdown.js"></script>
+    <script src="../../assets/js/helpers/hs.height-calc.js"></script>
+    <script src="../../assets/js/components/hs.popup.js"></script>
+    <script src="~/assets/js/components/hs.go-to.js"></script>
+    <script src="~/assets/js/components/gmap/hs.map.js"></script>
+    <!-- JS Customization -->
+    <script src="~/assets/js/custom.js"></script>
+
+    <script src="../../../../../https@maps.googleapis.com/maps/api/js@key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="~/assets/vendor/chosen/chosen.css">
+    <link rel="stylesheet" href="~/assets/vendor/prism/themes/prism.css">
+    <link rel="stylesheet" href="~/assets/vendor/custombox/custombox.min.css">
+    <link rel="stylesheet" href="~/assets/style-switcher/vendor/spectrum/spectrum.css">
+    <link rel="stylesheet" href="~/assets/style-switcher/vendor/spectrum/themes/sp-dark.css">
+    <link rel="stylesheet" href="~/assets/style-switcher/style-switcher.css">
+    <!-- End CSS -->
+    <!-- Scripts -->
+    <script src="~/assets/vendor/chosen/chosen.jquery.js"></script>
+    <script src="~/assets/vendor/image-select/src/ImageSelect.jquery.js"></script>
+    <script src="~/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/assets/vendor/custombox/custombox.min.js"></script>
+    <script src="~/assets/vendor/clipboard/dist/clipboard.min.js"></script>
+    <!-- Prism -->
+    <script src="~/assets/vendor/prism/prism.js"></script>
+    <script src="~/assets/vendor/prism/components/prism-markup.min.js"></script>
+    <script src="~/assets/vendor/prism/components/prism-css.min.js"></script>
+    <script src="~/assets/vendor/prism/components/prism-clike.min.js"></script>
+    <script src="~/assets/vendor/prism/components/prism-javascript.min.js"></script>
+    <script src="~/assets/vendor/prism/plugins/toolbar/prism-toolbar.min.js"></script>
+    <script src="~/assets/vendor/prism/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+    <!-- End Prism -->
+    <script src="~/assets/js/components/hs.scrollbar.js"></script>
+    <script src="~/assets/js/components/hs.select.js"></script>
+    <script src="~/assets/js/components/hs.modal-window.js"></script>
+    <script src="~/assets/js/components/hs.markup-copy.js"></script>
+    <script src="~/assets/style-switcher/vendor/cookiejs/jquery.cookie.js"></script>
+    <script src="~/assets/style-switcher/vendor/spectrum/spectrum.js"></script>
+    <script src="~/assets/style-switcher/style-switcher.js"></script>
+    <!-- End Scripts -->
+    <!-- End Style Switcher -->
+    @RenderSection("scripts", required: false)
+</body>
+</html>
