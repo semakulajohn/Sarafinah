@@ -32,6 +32,12 @@ namespace Sarafinah.Controllers
 
             return View();
         }
+        public ActionResult chart()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
         public ActionResult ActivitiesNews()
         {
             ViewBag.Message = "Your application description page.";

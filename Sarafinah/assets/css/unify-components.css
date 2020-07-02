@@ -7998,9 +7998,9 @@ body .u-icon-v5 {
   background-color: #9b2727;
 }
 
-.u-icon-v5.g-bg-black::after {
+/*.u-icon-v5.g-bg-black::after {
   background-color: #000;
-}
+}*/
 
 .u-icon-v5.g-bg-white::after {
   background-color: #fff;

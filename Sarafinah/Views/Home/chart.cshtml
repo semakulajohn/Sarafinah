@@ -1,0 +1,27 @@
+﻿
+<div id="app">
+    <org-chart :org-chart_data="myOrgData"></org-chart>
+</div>
+<script>
+    const myNode = { html: "<div>node</div>" };
+    myNode.classes = "myNode";
+    const redNode = { ...myNode };
+    redNode.classes += " redNode";
+    const greenNode = { ...myNode };
+    greenNode.classes += " greenNode";
+    const blueNode = { ...myNode };
+    blueNode.classes += " blueNode";
+    const myOrgData = {
+        root: {
+            node: redNode,
+            branches: {
+                vertical_breakpoint: "md",
+                items: [{ node: greenNode }, { node: blueNode }]
+            }
+        }
+    };
+    new Vue({
+        el: "#app",
+        data: { myOrgData }
+    });
+</script>
