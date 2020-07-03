@@ -129,23 +129,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\charity\css\styles.op-charity.css" />
-    <Content Include="assets\charity\img-temp\1200x811\img1.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img1.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img2.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img3.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img4.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img5.jpg" />
     <Content Include="assets\charity\img-temp\120x120\img6.png" />
-    <Content Include="assets\charity\img-temp\1920x1280\img1.jpg" />
-    <Content Include="assets\charity\img-temp\1920x1280\img2.jpg" />
-    <Content Include="assets\charity\img-temp\800x344\img1.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img1.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img2.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img3.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img4.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img5.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img6.jpg" />
-    <Content Include="assets\charity\img-temp\800x450\img7.jpg" />
     <Content Include="assets\charity\img-temp\800x496\img1.jpg" />
     <Content Include="assets\charity\img-temp\800x496\img2.jpg" />
     <Content Include="assets\charity\img-temp\800x496\img3.jpg" />
@@ -169,23 +158,10 @@
     <Content Include="assets\css\unify-globals.css" />
     <Content Include="assets\css\unify.css" />
     <Content Include="assets\education\css\styles.multipage-education.css" />
-    <Content Include="assets\education\img-temp\100x100\img1.jpg" />
-    <Content Include="assets\education\img-temp\100x100\img2.jpg" />
-    <Content Include="assets\education\img-temp\100x100\img3.jpg" />
-    <Content Include="assets\education\img-temp\100x100\img4.jpg" />
-    <Content Include="assets\education\img-temp\100x100\img5.jpg" />
-    <Content Include="assets\education\img-temp\1920x1080\img5.jpg" />
-    <Content Include="assets\education\img-temp\1920x1080\img6.jpg" />
-    <Content Include="assets\education\img-temp\1920x1080\img7.jpg" />
-    <Content Include="assets\education\img-temp\200x200\img1.jpg" />
-    <Content Include="assets\education\img-temp\200x200\img2.jpg" />
-    <Content Include="assets\education\img-temp\200x200\img3.jpg" />
-    <Content Include="assets\education\img-temp\200x200\img4.jpg" />
     <Content Include="assets\education\img-temp\400x500\img1.jpg" />
     <Content Include="assets\education\img-temp\400x500\img2.jpg" />
     <Content Include="assets\education\img-temp\400x500\img3.jpg" />
     <Content Include="assets\education\img-temp\400x500\img4.jpg" />
-    <Content Include="assets\education\img-temp\600x400\img1.jpg" />
     <Content Include="assets\education\img\logo\logo-mini.png" />
     <Content Include="assets\education\img\logo\logo.png" />
     <Content Include="assets\education\img\preloaders\preloader-black.svg" />
@@ -1892,26 +1868,6 @@
     <Content Include="assets\img-temp\1600x1066\img1.jpg" />
     <Content Include="assets\img-temp\1600x927\img1.jpg" />
     <Content Include="assets\img-temp\1600x927\img2.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img1.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img10.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img14.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img15.png" />
-    <Content Include="assets\img-temp\1920x1080\img16.png" />
-    <Content Include="assets\img-temp\1920x1080\img17.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img2.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img20.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img24.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img25.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img3.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img36.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img4.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img46.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img47.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img5.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img51.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img6.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img7.jpg" />
-    <Content Include="assets\img-temp\1920x1080\img9.jpg" />
     <Content Include="assets\img-temp\1920x700\img1.jpg" />
     <Content Include="assets\img-temp\1920x700\img2.jpg" />
     <Content Include="assets\img-temp\1920x700\img3.jpg" />
@@ -2539,7 +2495,6 @@
     <Content Include="assets\img-temp\1500x1040\Descr.WD3" />
     <Content Include="assets\img-temp\1500x1500\Descr.WD3" />
     <Content Include="assets\img-temp\150x150\Descr.WD3" />
-    <Content Include="assets\img-temp\1920x1080\Descr.WD3" />
     <Content Include="assets\img-temp\1920x700\Descr.WD3" />
     <Content Include="assets\img-temp\1920x800\Descr.WD3" />
     <Content Include="assets\img-temp\200x100\Descr.WD3" />
@@ -2813,19 +2768,11 @@
     <Content Include="assets\vendor\revolution-slider\revolution\js\extensions\Descr.WD3" />
     <Content Include="assets\vendor\slick-carousel\slick\Descr.WD3" />
     <Content Include="assets\vendor\typedjs\Descr.WD3" />
-    <Content Include="assets\education\img-temp\100x100\Descr.WD3" />
-    <Content Include="assets\education\img-temp\1920x1080\Descr.WD3" />
-    <Content Include="assets\education\img-temp\200x200\Descr.WD3" />
     <Content Include="assets\education\img-temp\400x500\Descr.WD3" />
-    <Content Include="assets\education\img-temp\600x400\Descr.WD3" />
     <Content Include="assets\education\img\logo\Descr.WD3" />
     <Content Include="assets\education\img\preloaders\Descr.WD3" />
     <Content Include="assets\charity\css\Descr.WD3" />
-    <Content Include="assets\charity\img-temp\1200x811\Descr.WD3" />
     <Content Include="assets\charity\img-temp\120x120\Descr.WD3" />
-    <Content Include="assets\charity\img-temp\1920x1280\Descr.WD3" />
-    <Content Include="assets\charity\img-temp\800x344\Descr.WD3" />
-    <Content Include="assets\charity\img-temp\800x450\Descr.WD3" />
     <Content Include="assets\charity\img-temp\800x496\Descr.WD3" />
     <Content Include="assets\charity\img-temp\800x842\Descr.WD3" />
     <Content Include="assets\charity\img\Descr.WD3" />
@@ -2903,6 +2850,7 @@
     <Content Include="assets\vendor\icon-hs\fonts\hs-icons.woff%40xa77py" />
     <Content Include="assets\vendor\icon-hs\fonts\hs-icons.ttf" />
     <Content Include="assets\vendor\icon-hs\fonts\hs-icons.woff" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2935,6 +2883,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\charity\img-temp\1200x811\" />
+    <Folder Include="assets\charity\img-temp\1920x1280\" />
+    <Folder Include="assets\charity\img-temp\800x344\" />
+    <Folder Include="assets\charity\img-temp\800x450\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
